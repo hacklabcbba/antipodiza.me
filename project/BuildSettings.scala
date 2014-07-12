@@ -18,7 +18,7 @@ object BuildSettings {
   val buildTime = SettingKey[String]("build-time")
 
   val basicSettings = Defaults.defaultSettings ++ Seq(
-    name := "antipodiza.me",
+    name := "antipodizame",
     version := "0.1-SNAPSHOT",
     organization := "hacklabcbba",
     scalaVersion := "2.10.3",

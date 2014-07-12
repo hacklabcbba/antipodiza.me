@@ -5,7 +5,7 @@ object LiftProjectBuild extends Build {
 
   import BuildSettings._
 
-  lazy val root = Project("antipodiza.me", file("."))
+  lazy val root = Project("antipodizame", file("."))
     .settings(liftAppSettings: _*)
     .settings(libraryDependencies ++=
       Seq(
