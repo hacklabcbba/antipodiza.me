@@ -62,24 +62,82 @@ div.gravatar {
   height: 95px;
 }
 
-.nav.ame-nav, .nav.ame-nav a {
+.nav.ame-nav {
   height: 95px;
   color: @ame-font-white;
+  font-size: @font-size-extra-large;
 }
 
-.ame-nav .first, .ame-nav .third {
-  background-color: @ame-green;
+.nav.ame-nav li a {
+  height: 75px;
+  color: @ame-font-white;
+  font-size: @font-size-extra-large;
 }
 
-.ame-nav .second {
-  background-color: @ame-dark-grey;
+.ame-nav li {
+  padding-top: 20px;
+}
+
+.ame-nav {
+  text-align: center;
+  .first, .third {
+    background-color: @ame-green;
+  }
+
+  .second {
+    background-color: @ame-dark-grey;
+  }
 }
 
 .navbar-collapse {
   background-color: @ame-green;
+  height: 95px;
 }
 
 .ame-main, body, .jumbotron {
   background-color: @ame-light-grey;
 }
+
+.ame-main * {
+  color: @ame-font-grey;
+
+}
+
+footer * {
+  color: @ame-green;
+  height: 40px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container-fluid {
+  padding: 40px 15px 0;
+}
+
+footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 
