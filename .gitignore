@@ -16,4 +16,5 @@ project/plugins/project/
 .scala_dependencies
 .worksheet
 .history
-
+.idea/*
+.idea_modules/*
