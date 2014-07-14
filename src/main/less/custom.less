@@ -71,7 +71,13 @@ div.gravatar {
 .nav.ame-nav li a {
   height: 75px;
   color: @ame-font-white;
-  font-size: @font-size-extra-large;
+  font-size: @font-size-large;
+}
+
+@media (min-width: @screen-md-min) {
+  .nav.ame-nav li a {
+    font-size: @font-size-extra-large;
+  }
 }
 
 .ame-nav li {
