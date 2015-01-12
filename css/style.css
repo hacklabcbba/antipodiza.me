@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container {
+	position:absolute;
+	height: auto;
+	width: 800px;
+	left: 50%;
+	margin-left:-400px;
+	
+	}
+	
+.logo{
+	margin-top: 150px;
+	text-align:center;
+}
+
+.github {
+	text-align:right;
+	
+	}
